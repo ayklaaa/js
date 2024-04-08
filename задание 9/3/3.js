@@ -5,5 +5,5 @@ function addDays(date, days = 1) {
 }
 
 const Date = new Date();
-const updatedDate = addDays(tDate, 3); // добавляем 7 дней к текущей дате
+const updatedDate = addDays(tDate, 3); // прибавили 3 дней к текущей дате
 console.log(updatedDate);
